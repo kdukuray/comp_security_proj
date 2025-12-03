@@ -55,7 +55,7 @@ def run_tests():
     assert encrypt(m4, k4) == expected_4, f"Failed Case 4: Expected {expected_4}, got {encrypt(m4, k4)}"
     assert decrypt(expected_4, k4) == m4, "Failed Case 4 Decrypt"
 
-    print("✅ All test cases passed!")
+    print("All test cases passed!")
 def main():
     run_tests()
 
